@@ -3,6 +3,7 @@ function grading(){
 	
 	for (var i = 1; i < arguments.length; i++) {
 			if (arguments[i]>40) {
+				//Too complex.. can you use modulo instead? %
 				if(Math.ceil(arguments[i]/5)*5-arguments[i] < 3){
 					msg += Math.ceil(arguments[i]/5)*5 + " ";
 				}
@@ -11,6 +12,7 @@ function grading(){
 				}
 			}
 			else{
+				//Too complex.. can you use modulo instead? %
 				if (Math.ceil(arguments[i]/5)*5>=40) {
 					msg += Math.ceil(arguments[i]/5)*5 + " ";
 				}
