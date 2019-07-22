@@ -26,15 +26,19 @@ Output Format
 
 For each  of the  grades, print the rounded grade on a new line.
 
-Sample Input 0
+Sample Input 
 
+0
 4
 73
 67
 38
 33
-Sample Output 0
 
+Sample Output 
+
+0
+4
 75
 67
 40
